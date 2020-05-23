@@ -18,7 +18,7 @@ struct AvailabilityView: View {
         HStack(spacing: 12.0) {
             Text(version.rawValue.prefix(3))
                 .bold()
-            CircleImage(imageName: version.rawValue)
+            CircleImage(image: Image(version.rawValue))
                 .frame(width: 40, height: 40, alignment: .center)
             Text("+")
                 .font(.headline)
@@ -31,6 +31,9 @@ struct AvailabilityView: View {
 
 struct AvailabilityView_Previews: PreviewProvider {
     static var previews: some View {
-        AvailabilityView(version: .iOS13)
+        Group {
+            AvailabilityView(version: .iOS10)
+            AvailabilityView(version: .iOS13)
+        }.previewLayout(.fixed(width: 150, height: 52))
     }
 }
