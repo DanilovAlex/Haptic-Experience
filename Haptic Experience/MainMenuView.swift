@@ -10,20 +10,22 @@ import SwiftUI
 
 struct MainMenuView: View {
     var body: some View {
-        VStack(spacing: 24.0) {
-            VStack {
-                Text("UIKit")
-                    .font(.largeTitle)
-                AvailabilityView(version: .iOS10)
-            }.frame(height: 200, alignment: .center)
-                        
-            VStack {
-                Text("CoreHaptics")
-                    .font(.largeTitle)
-                AvailabilityView(version: .iOS13)
-            }.frame(height: 200, alignment: .center)
-            
-        }.navigationBarTitle("Haptic Experience")
+        NavigationView {
+            VStack(spacing: 24.0) {
+                VStack {
+                    Text("UIKit")
+                        .font(.largeTitle)
+                    AvailabilityView(version: .iOS10)
+                }.frame(height: 200, alignment: .center)
+                            
+                VStack {
+                    Text("CoreHaptics")
+                        .font(.largeTitle)
+                    AvailabilityView(version: .iOS13)
+                }.frame(height: 200, alignment: .center)
+                
+            }.navigationBarTitle("Haptic Experience")
+        }
     }
 }
 
