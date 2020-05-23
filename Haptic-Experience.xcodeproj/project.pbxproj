@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11280DC124783C2F00100828 /* Haptic Experience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haptic Experience.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11280DC124783C2F00100828 /* Haptic-Experience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haptic-Experience.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11280DC424783C2F00100828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11280DC624783C2F00100828 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11280DC824783C2F00100828 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		11280DC224783C2F00100828 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11280DC124783C2F00100828 /* Haptic Experience.app */,
+				11280DC124783C2F00100828 /* Haptic-Experience.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11280DC024783C2F00100828 /* Haptic Experience */ = {
+		11280DC024783C2F00100828 /* Haptic-Experience */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11280DD524783C3000100828 /* Build configuration list for PBXNativeTarget "Haptic Experience" */;
+			buildConfigurationList = 11280DD524783C3000100828 /* Build configuration list for PBXNativeTarget "Haptic-Experience" */;
 			buildPhases = (
 				11280DBD24783C2F00100828 /* Sources */,
 				11280DBE24783C2F00100828 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "Haptic Experience";
+			name = "Haptic-Experience";
 			productName = "Haptic Experience";
-			productReference = 11280DC124783C2F00100828 /* Haptic Experience.app */;
+			productReference = 11280DC124783C2F00100828 /* Haptic-Experience.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 11280DBC24783C2F00100828 /* Build configuration list for PBXProject "Haptic Experience" */;
+			buildConfigurationList = 11280DBC24783C2F00100828 /* Build configuration list for PBXProject "Haptic-Experience" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11280DC024783C2F00100828 /* Haptic Experience */,
+				11280DC024783C2F00100828 /* Haptic-Experience */,
 			);
 		};
 /* End PBXProject section */
@@ -331,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11280DBC24783C2F00100828 /* Build configuration list for PBXProject "Haptic Experience" */ = {
+		11280DBC24783C2F00100828 /* Build configuration list for PBXProject "Haptic-Experience" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11280DD324783C3000100828 /* Debug */,
@@ -340,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11280DD524783C3000100828 /* Build configuration list for PBXNativeTarget "Haptic Experience" */ = {
+		11280DD524783C3000100828 /* Build configuration list for PBXNativeTarget "Haptic-Experience" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11280DD624783C3000100828 /* Debug */,
