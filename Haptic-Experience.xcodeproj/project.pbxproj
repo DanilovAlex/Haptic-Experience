@@ -15,6 +15,7 @@
 		11280DD124783C3000100828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11280DCF24783C3000100828 /* LaunchScreen.storyboard */; };
 		11280DD9247918F800100828 /* AvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DD8247918F800100828 /* AvailabilityView.swift */; };
 		11280DDB24791A7D00100828 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DDA24791A7D00100828 /* CircleImage.swift */; };
+		11280DE32479B2A000100828 /* ImpactFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE22479B2A000100828 /* ImpactFeedbackView.swift */; };
 		11280DE52479BC1600100828 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE42479BC1600100828 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		11280DD224783C3000100828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11280DD8247918F800100828 /* AvailabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityView.swift; sourceTree = "<group>"; };
 		11280DDA24791A7D00100828 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		11280DE22479B2A000100828 /* ImpactFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactFeedbackView.swift; sourceTree = "<group>"; };
 		11280DE42479BC1600100828 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 				11280DC424783C2F00100828 /* AppDelegate.swift */,
 				11280DC624783C2F00100828 /* SceneDelegate.swift */,
 				11280DC824783C2F00100828 /* MainMenuView.swift */,
+				11280DE22479B2A000100828 /* ImpactFeedbackView.swift */,
 				11280DD8247918F800100828 /* AvailabilityView.swift */,
 				11280DDA24791A7D00100828 /* CircleImage.swift */,
 				11280DCA24783C3000100828 /* Assets.xcassets */,
@@ -160,6 +163,7 @@
 				11280DC724783C2F00100828 /* SceneDelegate.swift in Sources */,
 				11280DC924783C2F00100828 /* MainMenuView.swift in Sources */,
 				11280DD9247918F800100828 /* AvailabilityView.swift in Sources */,
+				11280DE32479B2A000100828 /* ImpactFeedbackView.swift in Sources */,
 				11280DDB24791A7D00100828 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
