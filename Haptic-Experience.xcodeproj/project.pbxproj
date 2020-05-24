@@ -19,6 +19,7 @@
 		11280DE1247972B800100828 /* FeedbackListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE0247972B800100828 /* FeedbackListView.swift */; };
 		11280DE32479B2A000100828 /* ImpactFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE22479B2A000100828 /* ImpactFeedbackView.swift */; };
 		11280DE52479BC1600100828 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE42479BC1600100828 /* RoundedButton.swift */; };
+		11280DE7247A5E1400100828 /* CoreHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE6247A5E1400100828 /* CoreHapticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		11280DE0247972B800100828 /* FeedbackListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackListView.swift; sourceTree = "<group>"; };
 		11280DE22479B2A000100828 /* ImpactFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactFeedbackView.swift; sourceTree = "<group>"; };
 		11280DE42479BC1600100828 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		11280DE6247A5E1400100828 /* CoreHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				11280DC424783C2F00100828 /* AppDelegate.swift */,
 				11280DC624783C2F00100828 /* SceneDelegate.swift */,
 				11280DC824783C2F00100828 /* MainMenuView.swift */,
+				11280DE6247A5E1400100828 /* CoreHapticsView.swift */,
 				11280DE22479B2A000100828 /* ImpactFeedbackView.swift */,
 				11280DDC24794DC100100828 /* FeedbackListRowView.swift */,
 				11280DD8247918F800100828 /* AvailabilityView.swift */,
@@ -168,6 +171,7 @@
 				11280DE52479BC1600100828 /* RoundedButton.swift in Sources */,
 				11280DC724783C2F00100828 /* SceneDelegate.swift in Sources */,
 				11280DC924783C2F00100828 /* MainMenuView.swift in Sources */,
+				11280DE7247A5E1400100828 /* CoreHapticsView.swift in Sources */,
 				11280DD9247918F800100828 /* AvailabilityView.swift in Sources */,
 				11280DDD24794DC100100828 /* FeedbackListRowView.swift in Sources */,
 				11280DE1247972B800100828 /* FeedbackListView.swift in Sources */,

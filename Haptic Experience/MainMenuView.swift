@@ -12,20 +12,23 @@ struct MainMenuView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 24.0) {
-                VStack {
-                    Text("UIKit")
-                        .font(.largeTitle)
-                    AvailabilityView(version: .iOS10)
-                }.frame(height: 200, alignment: .center)
-                            
-                VStack {
-                    Text("CoreHaptics")
-                        .font(.largeTitle)
-                    AvailabilityView(version: .iOS13)
-                }.frame(height: 200, alignment: .center)
+                NavigationLink(destination: FeedbackListView()) {
+                    VStack {
+                        Text("UIKit")
+                            .font(.largeTitle)
+                        AvailabilityView(version: .iOS10)
+                    }.frame(height: 200, alignment: .center)
+                }.buttonStyle(PlainButtonStyle())
                 
+                NavigationLink(destination: CoreHapticsView()) {
+                    VStack {
+                        Text("CoreHaptics")
+                            .font(.largeTitle)
+                        AvailabilityView(version: .iOS13)
+                    }.frame(height: 200, alignment: .center)
+                }.buttonStyle(PlainButtonStyle())
             }.navigationBarTitle("Haptic Experience")
-        }
+        }.accentColor(.primary)
     }
 }
 
