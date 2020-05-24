@@ -317,6 +317,7 @@
 				DEVELOPMENT_TEAM = VFRFQB86Q6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Haptic Experience/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +338,7 @@
 				DEVELOPMENT_TEAM = VFRFQB86Q6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Haptic Experience/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
