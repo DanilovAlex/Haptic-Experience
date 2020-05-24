@@ -70,20 +70,14 @@
 		11280DC324783C2F00100828 /* Haptic Experience */ = {
 			isa = PBXGroup;
 			children = (
+				11280DE8247A627600100828 /* Main Menu */,
+				11280DE9247A629D00100828 /* Common */,
+				11280DEC247A631200100828 /* Resources */,
 				11280DC424783C2F00100828 /* AppDelegate.swift */,
 				11280DC624783C2F00100828 /* SceneDelegate.swift */,
-				11280DC824783C2F00100828 /* MainMenuView.swift */,
-				11280DE6247A5E1400100828 /* CoreHapticsView.swift */,
-				11280DE22479B2A000100828 /* ImpactFeedbackView.swift */,
-				11280DDC24794DC100100828 /* FeedbackListRowView.swift */,
-				11280DD8247918F800100828 /* AvailabilityView.swift */,
-				11280DDA24791A7D00100828 /* CircleImage.swift */,
-				11280DCA24783C3000100828 /* Assets.xcassets */,
 				11280DCF24783C3000100828 /* LaunchScreen.storyboard */,
 				11280DD224783C3000100828 /* Info.plist */,
 				11280DCC24783C3000100828 /* Preview Content */,
-				11280DE0247972B800100828 /* FeedbackListView.swift */,
-				11280DE42479BC1600100828 /* RoundedButton.swift */,
 			);
 			path = "Haptic Experience";
 			sourceTree = "<group>";
@@ -94,6 +88,52 @@
 				11280DCD24783C3000100828 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11280DE8247A627600100828 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				11280DEB247A62D700100828 /* Core Haptics */,
+				11280DEA247A62C200100828 /* UIKit Feedback */,
+				11280DC824783C2F00100828 /* MainMenuView.swift */,
+				11280DD8247918F800100828 /* AvailabilityView.swift */,
+			);
+			path = "Main Menu";
+			sourceTree = "<group>";
+		};
+		11280DE9247A629D00100828 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				11280DDA24791A7D00100828 /* CircleImage.swift */,
+				11280DE42479BC1600100828 /* RoundedButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		11280DEA247A62C200100828 /* UIKit Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				11280DE22479B2A000100828 /* ImpactFeedbackView.swift */,
+				11280DDC24794DC100100828 /* FeedbackListRowView.swift */,
+				11280DE0247972B800100828 /* FeedbackListView.swift */,
+			);
+			path = "UIKit Feedback";
+			sourceTree = "<group>";
+		};
+		11280DEB247A62D700100828 /* Core Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				11280DE6247A5E1400100828 /* CoreHapticsView.swift */,
+			);
+			path = "Core Haptics";
+			sourceTree = "<group>";
+		};
+		11280DEC247A631200100828 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11280DCA24783C3000100828 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
