@@ -17,6 +17,9 @@ struct FeedbackListView: View {
             NavigationLink(destination: SelectionFeedbackView()) {
                 FeedbackListRowView(name: "Selection")
             }
+            NavigationLink(destination: NotificationFeedbackView()) {
+                FeedbackListRowView(name: "Notification")
+            }
         }.navigationBarTitle("UIKit Feedbacks")
     }
 }
