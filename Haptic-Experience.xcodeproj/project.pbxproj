@@ -21,6 +21,7 @@
 		11280DE52479BC1600100828 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE42479BC1600100828 /* RoundedButton.swift */; };
 		11280DE7247A5E1400100828 /* CoreHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE6247A5E1400100828 /* CoreHapticsView.swift */; };
 		11280DEE247AE7AC00100828 /* SelectionFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DED247AE7AC00100828 /* SelectionFeedbackView.swift */; };
+		11E484E0247BA090001D29C2 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E484DF247BA090001D29C2 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		11280DE42479BC1600100828 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		11280DE6247A5E1400100828 /* CoreHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsView.swift; sourceTree = "<group>"; };
 		11280DED247AE7AC00100828 /* SelectionFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionFeedbackView.swift; sourceTree = "<group>"; };
+		11E484DF247BA090001D29C2 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				11280DDA24791A7D00100828 /* CircleImage.swift */,
 				11280DE42479BC1600100828 /* RoundedButton.swift */,
+				11E484DF247BA090001D29C2 /* ActivityIndicator.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				11280DE52479BC1600100828 /* RoundedButton.swift in Sources */,
 				11280DEE247AE7AC00100828 /* SelectionFeedbackView.swift in Sources */,
 				11280DC724783C2F00100828 /* SceneDelegate.swift in Sources */,
+				11E484E0247BA090001D29C2 /* ActivityIndicator.swift in Sources */,
 				11280DC924783C2F00100828 /* MainMenuView.swift in Sources */,
 				11280DE7247A5E1400100828 /* CoreHapticsView.swift in Sources */,
 				11280DD9247918F800100828 /* AvailabilityView.swift in Sources */,
