@@ -12,13 +12,13 @@ struct FeedbackListView: View {
     var body: some View {
         List {
             NavigationLink(destination: ImpactFeedbackView()) {
-                FeedbackListRowView(name: "Impact")
+                SimpleItemListRowView(title: "Impact")
             }
             NavigationLink(destination: SelectionFeedbackView()) {
-                FeedbackListRowView(name: "Selection")
+                SimpleItemListRowView(title: "Selection")
             }
             NavigationLink(destination: NotificationFeedbackView()) {
-                FeedbackListRowView(name: "Notification")
+                SimpleItemListRowView(title: "Notification")
             }
         }.navigationBarTitle("UIKit Feedbacks")
     }
