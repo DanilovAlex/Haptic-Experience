@@ -1,5 +1,5 @@
 //
-//  CoreHapticsView.swift
+//  CoreHapticsListView.swift
 //  Haptic-Experience
 //
 //  Created by Alexander on 24.05.2020.
@@ -8,14 +8,16 @@
 
 import SwiftUI
 
-struct CoreHapticsView: View {
+struct CoreHapticsListView: View {
     var body: some View {
-        Text("Work in progress!").navigationBarTitle("Core Haptics")
+        List {
+            SimpleItemListRowView(title: "Haptic Pallete")
+        }.navigationBarTitle("Core Haptics")
     }
 }
 
 struct CoreHapticsView_Previews: PreviewProvider {
     static var previews: some View {
-        CoreHapticsView()
+        CoreHapticsListView()
     }
 }

@@ -19,7 +19,7 @@
 		11280DE1247972B800100828 /* FeedbackListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE0247972B800100828 /* FeedbackListView.swift */; };
 		11280DE32479B2A000100828 /* ImpactFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE22479B2A000100828 /* ImpactFeedbackView.swift */; };
 		11280DE52479BC1600100828 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE42479BC1600100828 /* RoundedButton.swift */; };
-		11280DE7247A5E1400100828 /* CoreHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE6247A5E1400100828 /* CoreHapticsView.swift */; };
+		11280DE7247A5E1400100828 /* CoreHapticsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DE6247A5E1400100828 /* CoreHapticsListView.swift */; };
 		11280DEE247AE7AC00100828 /* SelectionFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DED247AE7AC00100828 /* SelectionFeedbackView.swift */; };
 		11E484DE247B9AC4001D29C2 /* NotificationFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E484DD247B9AC4001D29C2 /* NotificationFeedbackView.swift */; };
 		11E484E0247BA090001D29C2 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E484DF247BA090001D29C2 /* ActivityIndicator.swift */; };
@@ -40,7 +40,7 @@
 		11280DE0247972B800100828 /* FeedbackListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackListView.swift; sourceTree = "<group>"; };
 		11280DE22479B2A000100828 /* ImpactFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactFeedbackView.swift; sourceTree = "<group>"; };
 		11280DE42479BC1600100828 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
-		11280DE6247A5E1400100828 /* CoreHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsView.swift; sourceTree = "<group>"; };
+		11280DE6247A5E1400100828 /* CoreHapticsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsListView.swift; sourceTree = "<group>"; };
 		11280DED247AE7AC00100828 /* SelectionFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionFeedbackView.swift; sourceTree = "<group>"; };
 		11E484DD247B9AC4001D29C2 /* NotificationFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFeedbackView.swift; sourceTree = "<group>"; };
 		11E484DF247BA090001D29C2 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		11280DEB247A62D700100828 /* Core Haptics */ = {
 			isa = PBXGroup;
 			children = (
-				11280DE6247A5E1400100828 /* CoreHapticsView.swift */,
+				11280DE6247A5E1400100828 /* CoreHapticsListView.swift */,
 			);
 			path = "Core Haptics";
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 				11E484E0247BA090001D29C2 /* ActivityIndicator.swift in Sources */,
 				11E484DE247B9AC4001D29C2 /* NotificationFeedbackView.swift in Sources */,
 				11280DC924783C2F00100828 /* MainMenuView.swift in Sources */,
-				11280DE7247A5E1400100828 /* CoreHapticsView.swift in Sources */,
+				11280DE7247A5E1400100828 /* CoreHapticsListView.swift in Sources */,
 				11280DD9247918F800100828 /* AvailabilityView.swift in Sources */,
 				11280DDD24794DC100100828 /* SimpleItemListRowView.swift in Sources */,
 				11280DE1247972B800100828 /* FeedbackListView.swift in Sources */,

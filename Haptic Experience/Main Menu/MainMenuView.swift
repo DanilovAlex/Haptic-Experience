@@ -20,7 +20,7 @@ struct MainMenuView: View {
                     }.frame(height: 200, alignment: .center)
                 }.buttonStyle(PlainButtonStyle())
                 
-                NavigationLink(destination: CoreHapticsView()) {
+                NavigationLink(destination: CoreHapticsListView()) {
                     VStack {
                         Text("CoreHaptics")
                             .font(.largeTitle)
