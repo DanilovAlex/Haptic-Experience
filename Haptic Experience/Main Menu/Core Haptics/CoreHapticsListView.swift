@@ -11,7 +11,9 @@ import SwiftUI
 struct CoreHapticsListView: View {
     var body: some View {
         List {
-            SimpleItemListRowView(title: "Haptic Pallete")
+            NavigationLink(destination: UIViewControllerSwiftUIRepresentableWrapper<HapticPaletteViewController>().navigationBarTitle("Haptic Palette")) {
+                SimpleItemListRowView(title: "Haptic Palette")
+            }
         }.navigationBarTitle("Core Haptics")
     }
 }
