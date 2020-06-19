@@ -14,6 +14,9 @@ struct CoreHapticsListView: View {
             NavigationLink(destination: UIViewControllerSwiftUIRepresentableWrapper<HapticPaletteViewController>().navigationBarTitle("Haptic Palette")) {
                 SimpleItemListRowView(title: "Haptic Palette")
             }
+            NavigationLink(destination: HapticSamplesListView(viewModel: HapticSamplesViewModel())) {
+                SimpleItemListRowView(title: "Haptic Samples")
+            }
         }.navigationBarTitle("Core Haptics")
     }
 }

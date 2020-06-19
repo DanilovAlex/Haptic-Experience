@@ -23,6 +23,9 @@
 		11280DEE247AE7AC00100828 /* SelectionFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11280DED247AE7AC00100828 /* SelectionFeedbackView.swift */; };
 		114A7D6C249BD07E007C045C /* HapticPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A7D6B249BD07E007C045C /* HapticPaletteViewController.swift */; };
 		114A7D6E249BEA6E007C045C /* UIViewControllerSwiftUIRepresentableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A7D6D249BEA6E007C045C /* UIViewControllerSwiftUIRepresentableWrapper.swift */; };
+		114A7D70249BF4CF007C045C /* AHAP in Resources */ = {isa = PBXBuildFile; fileRef = 114A7D6F249BF4CF007C045C /* AHAP */; };
+		114A7D74249C96B8007C045C /* HapticSamplesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A7D73249C96B8007C045C /* HapticSamplesViewModel.swift */; };
+		114A7D76249C9BB4007C045C /* HapticSamplesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114A7D75249C9BB4007C045C /* HapticSamplesListView.swift */; };
 		11E484DE247B9AC4001D29C2 /* NotificationFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E484DD247B9AC4001D29C2 /* NotificationFeedbackView.swift */; };
 		11E484E0247BA090001D29C2 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E484DF247BA090001D29C2 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +49,9 @@
 		11280DED247AE7AC00100828 /* SelectionFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionFeedbackView.swift; sourceTree = "<group>"; };
 		114A7D6B249BD07E007C045C /* HapticPaletteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticPaletteViewController.swift; sourceTree = "<group>"; };
 		114A7D6D249BEA6E007C045C /* UIViewControllerSwiftUIRepresentableWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerSwiftUIRepresentableWrapper.swift; sourceTree = "<group>"; };
+		114A7D6F249BF4CF007C045C /* AHAP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AHAP; sourceTree = "<group>"; };
+		114A7D73249C96B8007C045C /* HapticSamplesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticSamplesViewModel.swift; sourceTree = "<group>"; };
+		114A7D75249C9BB4007C045C /* HapticSamplesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticSamplesListView.swift; sourceTree = "<group>"; };
 		11E484DD247B9AC4001D29C2 /* NotificationFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFeedbackView.swift; sourceTree = "<group>"; };
 		11E484DF247BA090001D29C2 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +145,8 @@
 			children = (
 				114A7D6B249BD07E007C045C /* HapticPaletteViewController.swift */,
 				11280DE6247A5E1400100828 /* CoreHapticsListView.swift */,
+				114A7D73249C96B8007C045C /* HapticSamplesViewModel.swift */,
+				114A7D75249C9BB4007C045C /* HapticSamplesListView.swift */,
 			);
 			path = "Core Haptics";
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 		11280DEC247A631200100828 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				114A7D6F249BF4CF007C045C /* AHAP */,
 				11280DCA24783C3000100828 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -211,6 +220,7 @@
 			files = (
 				11280DD124783C3000100828 /* LaunchScreen.storyboard in Resources */,
 				11280DCE24783C3000100828 /* Preview Assets.xcassets in Resources */,
+				114A7D70249BF4CF007C045C /* AHAP in Resources */,
 				11280DCB24783C3000100828 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114A7D74249C96B8007C045C /* HapticSamplesViewModel.swift in Sources */,
+				114A7D76249C9BB4007C045C /* HapticSamplesListView.swift in Sources */,
 				11280DC524783C2F00100828 /* AppDelegate.swift in Sources */,
 				114A7D6E249BEA6E007C045C /* UIViewControllerSwiftUIRepresentableWrapper.swift in Sources */,
 				11280DE52479BC1600100828 /* RoundedButton.swift in Sources */,
