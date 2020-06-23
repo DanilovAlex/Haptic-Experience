@@ -47,6 +47,7 @@
 		11280DE42479BC1600100828 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		11280DE6247A5E1400100828 /* CoreHapticsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsListView.swift; sourceTree = "<group>"; };
 		11280DED247AE7AC00100828 /* SelectionFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionFeedbackView.swift; sourceTree = "<group>"; };
+		1149445B24A1E321008360FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		114A7D6B249BD07E007C045C /* HapticPaletteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticPaletteViewController.swift; sourceTree = "<group>"; };
 		114A7D6D249BEA6E007C045C /* UIViewControllerSwiftUIRepresentableWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerSwiftUIRepresentableWrapper.swift; sourceTree = "<group>"; };
 		114A7D6F249BF4CF007C045C /* AHAP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AHAP; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		11280DB824783C2F00100828 = {
 			isa = PBXGroup;
 			children = (
+				1149445B24A1E321008360FD /* README.md */,
 				11280DC324783C2F00100828 /* Haptic Experience */,
 				11280DC224783C2F00100828 /* Products */,
 			);
