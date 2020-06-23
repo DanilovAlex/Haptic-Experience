@@ -12,12 +12,14 @@ struct HapticSamplesListView: View {
     let viewModel: HapticSamplesViewModel
     
     var body: some View {
-        List {
-            ForEach(viewModel.samples) { sample in
-                Button(action: { self.viewModel.playSample(sample) }) {
-                    Text(sample.name)
-                }
-            }
+        List(viewModel.samples) { sample in
+            HStack {
+                Spacer()
+                RoundedButton(action: { self.viewModel.playSample(sample) },
+                              title: sample.name,
+                              color: .blue)
+                Spacer()
+            }.padding(20)
         }.navigationBarTitle("Haptic Samples")
     }
 }

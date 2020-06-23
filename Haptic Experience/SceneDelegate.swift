@@ -28,6 +28,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: mainMenuView)
             self.window = window
             window.makeKeyAndVisible()
+            UITableView.appearance().separatorColor = .clear
         }
     }
 

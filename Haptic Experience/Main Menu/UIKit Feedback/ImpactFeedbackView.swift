@@ -25,26 +25,25 @@ struct ImpactFeedbackView: View {
     
     var body: some View {
         VStack(spacing: 32.0) {
-            VStack(spacing: 8.0) {
-                HStack(spacing: 8.0) {
+            VStack(spacing: 32.0) {
+                HStack(spacing: 32.0) {
                     RoundedButton(action: { self.heavy.impactOccurred(intensity: CGFloat(self.intensity)) },
-                                  title: "Heavy")
+                                  title: "Heavy", color: .yellow)
                     RoundedButton(action: { self.medium.impactOccurred(intensity: CGFloat(self.intensity)) },
-                                  title: "Medium")
+                                  title: "Medium", color: .yellow)
                     RoundedButton(action: { self.light.impactOccurred(intensity: CGFloat(self.intensity)) },
-                                  title: "Light")
+                                  title: "Light", color: .yellow)
                 }
-                HStack(spacing: 8.0) {
+                HStack(spacing: 32.0) {
                     RoundedButton(action: { self.soft.impactOccurred(intensity: CGFloat(self.intensity)) },
-                                  title: "Soft", color: .orange)
+                                  title: "Soft", color: .yellow)
                     RoundedButton(action: { self.rigid.impactOccurred(intensity: CGFloat(self.intensity)) },
-                                  title: "Rigid", color: .orange)
+                                  title: "Rigid", color: .yellow)
                 }
             }
             VStack(spacing: 8.0) {
                 RoundedButton(action: { self.custom.impactOccurred(intensity: CGFloat(self.intensity))},
-                              title: "Default",
-                              color: .red)
+                              title: "Default")
                 Slider(value: $intensity, in: 0...1, step: 0.05).padding()
                 Text("Selected intensity: \(formattedIntensity)")
             }

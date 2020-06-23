@@ -20,7 +20,7 @@ struct SelectionFeedbackView: View {
             Spacer()
             RoundedButton(action: { self.selectionGenerator.selectionChanged() },
                           title: "Tap me",
-                          color: .pink)
+                          color: .red)
             Text("Examples in iOS").font(.largeTitle).bold()
             Picker("", selection: $pickerValue) {
                 Text("Data 1")
