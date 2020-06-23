@@ -17,6 +17,9 @@ struct CoreHapticsListView: View {
             NavigationLink(destination: HapticSamplesListView(viewModel: HapticSamplesViewModel())) {
                 SimpleItemListRowView(title: "Haptic Samples")
             }
+            NavigationLink(destination: UIViewControllerSwiftUIRepresentableWrapper<HapticBounceViewController>().navigationBarTitle("Haptic Bounce")) {
+                SimpleItemListRowView(title: "Haptic Bounce")
+            }
         }.navigationBarTitle("Core Haptics")
     }
 }
