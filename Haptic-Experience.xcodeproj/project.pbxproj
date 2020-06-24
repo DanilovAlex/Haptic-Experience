@@ -55,6 +55,7 @@
 		114A7D6F249BF4CF007C045C /* AHAP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AHAP; sourceTree = "<group>"; };
 		114A7D73249C96B8007C045C /* HapticSamplesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticSamplesViewModel.swift; sourceTree = "<group>"; };
 		114A7D75249C9BB4007C045C /* HapticSamplesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticSamplesListView.swift; sourceTree = "<group>"; };
+		1160377A24A3474E0023AA99 /* PrivacyPolicy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PrivacyPolicy.md; sourceTree = "<group>"; };
 		11E484DD247B9AC4001D29C2 /* NotificationFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFeedbackView.swift; sourceTree = "<group>"; };
 		11E484DF247BA090001D29C2 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +74,7 @@
 		11280DB824783C2F00100828 = {
 			isa = PBXGroup;
 			children = (
+				1160377A24A3474E0023AA99 /* PrivacyPolicy.md */,
 				1149445B24A1E321008360FD /* README.md */,
 				11280DC324783C2F00100828 /* Haptic Experience */,
 				11280DC224783C2F00100828 /* Products */,
